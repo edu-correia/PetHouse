@@ -111,3 +111,7 @@ Principais features:
    1.	Criação do botão de exclusão de posts, baseado na permissão. [Mateus Augusto]
    2.	Lógica de exclusão de posts. [Mateus Augusto]
    3.	Implementação da rota da exclusão de posts. [Mateus Augusto]
+
+## Arquitetura
+
+Disponível em [docs/README.md](https://github.com/Mateus Augusto/pet-adoption/tree/main/frontend/docs/README.md)
