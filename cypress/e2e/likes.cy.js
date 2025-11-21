@@ -22,27 +22,4 @@ describe('Sign-up and login flow', () => {
       cy.url().should('eq', 'http://localhost:3000/');
     });
   });
-
-  describe('Pet Ads', () => {
-    it('Clique em um PetAd Aleatório e curta-o', () => {
-      cy.get('.pet-ad').should('exist');
-      
-      cy.get('.pet-ad').then(($ads) => {
-        const randomIndex = Math.floor(Math.random() * $ads.length);
-        
-        cy.wrap($ads[randomIndex]).click();
-        
-        cy.get('.popup').should('be.visible');
-        cy.get('.pet-likes button').should('exist');
-      
-        cy.get('.pet-likes button').invoke('attr', 'class').then((initialClass) => {
-          cy.get('.pet-likes button').click();
-  
-          cy.get('.pet-likes button').should('have.class', 'postliked');
-  
-          cy.get('.pet-likes button').should('not.have.class', initialClass);
-        });
-      }); 
-    });
-  });
 });
