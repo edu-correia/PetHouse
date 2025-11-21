@@ -1,5 +1,5 @@
 ## pet-house
-Este repositório contém o código-fonte e os recursos relacionados ao projeto prático desenvolvido como parte da disciplina "Engenharia de Software 2". O objetivo principal deste projeto é criar uma plataforma web dedicada à adoção responsável de cães e gatos.
+Este repositório contém o código-fonte e os recursos relacionados ao projeto prático desenvolvido como parte da disciplina "Testes de Software". O objetivo principal deste projeto é criar uma plataforma web dedicada à adoção responsável de cães e gatos.
 
 ## Membros da equipe
  - Eduardo Correia - Fullstack
