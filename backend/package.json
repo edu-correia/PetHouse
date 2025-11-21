@@ -9,7 +9,11 @@
     "start": "yarn build && node dist/src/index.js",
     "style:check": "prettier --check \"src/**/*.ts\"",
     "style:fix": "prettier --write \"src/**/*.ts\"",
-    "test": "jest --coverage"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "coverageReporters": ["json", "lcov", "text", "clover"]
   },
   "repository": {
     "type": "git",
