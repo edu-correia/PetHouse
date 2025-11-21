@@ -1,5 +1,4 @@
-![image](https://github.com/Mateus Augusto/pet-adoption/assets/126487673/3e4e3e58-6939-4864-94af-6ab4acacccec)
-## pet-adoption
+## pet-house
 Este repositório contém o código-fonte e os recursos relacionados ao projeto prático desenvolvido como parte da disciplina "Prática em Desenvolvimento de Software". O objetivo principal deste projeto é criar uma plataforma web dedicada à adoção responsável de cães e gatos.
 
 ## Membros da equipe
@@ -52,8 +51,8 @@ Principais features:
 •	História #1: Como usuário comum, quero poder me cadastrar na plataforma.
 •	Status: ✅
 •	Tarefas e responsáveis: 
-   1. Setup do Banco de Dados [Theo Pedras Chimicatti]
-   2. Definição do backend [Eduardo Correia Correia]
+   1. Setup do Banco de Dados [Theo Pedras]
+   2. Definição do backend [Eduardo Correia]
    3. Definição do frontend [Mateus Augusto]
    4.	Implementar tela inicial. [Bernardo Viggiano]
    5.	Implementar tela de cadastro. [Bernardo Viggiano]
@@ -64,10 +63,10 @@ Principais features:
 •	História #2: Como usuário comum, quero poder criar, deletar e editar um anúncio PET.
 •	Status: ✅
 •	Tarefas e responsáveis: 
-   1.	Implementar tela de gerenciamento de anúncio. [Eduardo Correia Correia]
-   2.	Implementar rota de criação. [Eduardo Correia Correia]
-   3.	Implementar rota de edição. [Eduardo Correia Correia]
-   4.	Implementar rota de exclusão. [Eduardo Correia Correia]
+   1.	Implementar tela de gerenciamento de anúncio. [Eduardo Correia]
+   2.	Implementar rota de criação. [Eduardo Correia]
+   3.	Implementar rota de edição. [Eduardo Correia]
+   4.	Implementar rota de exclusão. [Eduardo Correia]
 
 
 •	História #3: Como usuário comum, quero poder ter acesso a informações do anúncio do PET.
@@ -86,9 +85,9 @@ Principais features:
 •	História #5: Como usuário comum, gostaria de avaliar outro usuário.
 •	Status: ✅
 •	Tarefas e responsáveis: 
-   1.	Criação do perfil do usuário. [Theo Pedras Chimicatti] 
-   2.	Criação da lógica de avaliação do usuário. [Theo Pedras Chimicatti] 
-   3.	Implementar rota de avaliação de usuário. [Theo Pedras Chimicatti] 
+   1.	Criação do perfil do usuário. [Theo Pedras] 
+   2.	Criação da lógica de avaliação do usuário. [Theo Pedras] 
+   3.	Implementar rota de avaliação de usuário. [Theo Pedras] 
 
 •	História #6: Como usuário comum, gostaria de denunciar posts de outros usuários.
 •	Status: ✅
@@ -100,10 +99,10 @@ Principais features:
 •	História #7: Como usuário administrador, quero banir um usuário comum do aplicativo. 
 •	Status: ✅
 •	Tarefas e responsáveis:
-   1.	Criação de tela de denúncias. [Eduardo Correia Correia]
-   2.	Criação do botão de banir usuário. [Eduardo Correia Correia]
-   3.	Implementação da lógica de banimento do usuário, baseado na permissão. [Eduardo Correia Correia]
-   4.	Implementação da rota de banimento do usuário comum do aplicativo. [Eduardo Correia Correia]
+   1.	Criação de tela de denúncias. [Eduardo Correia]
+   2.	Criação do botão de banir usuário. [Eduardo Correia]
+   3.	Implementação da lógica de banimento do usuário, baseado na permissão. [Eduardo Correia]
+   4.	Implementação da rota de banimento do usuário comum do aplicativo. [Eduardo Correia]
 
 •	História #8: Como usuário administrador, gostaria de excluir posts para maior organização do aplicativo.
 •	Status: ✅
@@ -111,10 +110,6 @@ Principais features:
    1.	Criação do botão de exclusão de posts, baseado na permissão. [Mateus Augusto]
    2.	Lógica de exclusão de posts. [Mateus Augusto]
    3.	Implementação da rota da exclusão de posts. [Mateus Augusto]
-
-## Arquitetura
-
-Disponível em [docs/README.md](https://github.com/Mateus Augusto/pet-adoption/tree/main/frontend/docs/README.md)
 
 ## Testes
 

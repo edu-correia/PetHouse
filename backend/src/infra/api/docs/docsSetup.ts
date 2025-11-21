@@ -4,7 +4,7 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Pet Adoption's Backend Docs",
+      title: "Pet House's Backend Docs",
       version: "1.0.0",
       description: "Project documentation",
     },

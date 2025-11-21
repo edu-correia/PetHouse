@@ -1,7 +1,7 @@
 {
-  "name": "pet-adoption-backend",
+  "name": "pet-house-backend",
   "version": "1.0.0",
-  "description": "Pet Adoption's Backend.",
+  "description": "Pet house's Backend.",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon 'src/index.ts'",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mateus Augusto/pet-adoption.git"
+    "url": "git+https://github.com/edu-correia/pet-house.git"
   },
   "keywords": [],
   "author": "",
   "bugs": {
-    "url": "https://github.com/Mateus Augusto/pet-adoption/issues"
+    "url": "https://github.com/edu-correia/pet-house/issues"
   },
-  "homepage": "https://github.com/Mateus Augusto/pet-adoption#readme",
+  "homepage": "https://github.com/edu-correia/pet-house#readme",
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
