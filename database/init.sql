@@ -54,10 +54,10 @@ CREATE TABLE IF NOT EXISTS reactions (
 
 INSERT INTO users (name, email, password, photo_url, description, address, phone, permissions)
 VALUES
-    ('Eduardo Correia Sereia', 'eduardo@mail.com', '$2b$10$HRAqlhysuyI6369777gzWuIQOPJvylJqZOA0gFyb8M/4fwkY7qgHy', 'https://github.com/Eduardo Correia Correia.png', 'Descricao 1', 'Rua Um, 74 - BH', '31 98765-4321', 1),
-    ('Juan Botelho', 'Mateus Augusto@mail.com', '$2b$10$HRAqlhysuyI6369777gzWuIQOPJvylJqZOA0gFyb8M/4fwkY7qgHy', 'https://github.com/Mateus Augusto.png', 'Descricao 2', 'Rua Dois, 359 - BH', '31 98765-4321', 0),
-    ('Bernardo Emiliano', 'bernardo@mail.com', '$2b$10$HRAqlhysuyI6369777gzWuIQOPJvylJqZOA0gFyb8M/4fwkY7qgHy', 'https://github.com/Bernardo Viggiano.png', 'Descricao 3', 'Rua Três, 465 - BH', '31 98765-4321', 1),
-    ('Theo Pedras Schimidt', 'rafael@mail.com', '$2b$10$HRAqlhysuyI6369777gzWuIQOPJvylJqZOA0gFyb8M/4fwkY7qgHy', 'https://github.com/Theo Pedras.png', 'Descricao 4', 'Rua Quatro, 981 - BH', '31 98765-4321', 0);
+    ('Eduardo Sereia', 'eduardo@mail.com', '$2b$10$HRAqlhysuyI6369777gzWuIQOPJvylJqZOA0gFyb8M/4fwkY7qgHy', 'https://github.com/edu-correia.png', 'Descricao 1', 'Rua Um, 74 - BH', '31 98765-4321', 1),
+    ('Mateus Astuto', 'mateus@mail.com', '$2b$10$HRAqlhysuyI6369777gzWuIQOPJvylJqZOA0gFyb8M/4fwkY7qgHy', 'https://github.com/Mateusg2022.png', 'Descricao 2', 'Rua Dois, 359 - BH', '31 98765-4321', 0),
+    ('Bernardo Emiliano', 'bernardo@mail.com', '$2b$10$HRAqlhysuyI6369777gzWuIQOPJvylJqZOA0gFyb8M/4fwkY7qgHy', 'https://github.com/beviggiano.png', 'Descricao 3', 'Rua Três, 465 - BH', '31 98765-4321', 1),
+    ('Theo Petra', 'theo@mail.com', '$2b$10$HRAqlhysuyI6369777gzWuIQOPJvylJqZOA0gFyb8M/4fwkY7qgHy', 'https://github.com/theopedras.png', 'Descricao 4', 'Rua Quatro, 981 - BH', '31 98765-4321', 0);
 
 INSERT INTO posts (photo_url, name, breed, age, description, owner_id, created_at)
 VALUES
